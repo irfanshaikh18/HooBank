@@ -31,7 +31,7 @@ export default class App extends React.Component {
           </div>
         </div>
         {/*  */}
-        <div className={`bg-primary ${styles.flexStart}`}>
+        <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
           <div className={`${styles.boxWidth}`}>
             <Stats /> <Business /> <Billing /> <CardDeal /> <Testimonials />{' '}
             <Clients /> <CTA /> <Footer />
